@@ -98,7 +98,12 @@ header {
   header .slide-grp {
     display: none; }
   header .logo {
-    margin-top: 50px; }
+    margin-top: 50px; } }
+  @media screen and (max-height: 480px) and (max-width: 300px), screen and (max-width: 480px) and (max-width: 300px) {
+    header .logo {
+      display: none; } }
+
+@media screen and (max-height: 480px), screen and (max-width: 480px) {
   header nav {
     width: 95%; } }
 
@@ -305,9 +310,15 @@ section#quote {
     @media screen and (max-width: 760px) {
       section#quote h4 {
         font-size: 20px; } }
-    @media screen and (max-width: 330px) {
+    @media (max-width: 380px) {
+      section#quote h4 {
+        padding: 40px; } }
+    @media screen and (max-width: 480px) {
       section#quote h4 {
         padding: 50px; } }
+    @media screen and (max-width: 300px) {
+      section#quote h4 {
+        padding: 30px; } }
   section#quote h5 {
     font-size: 20px;
     padding-top: 30px;
@@ -316,3 +327,56 @@ section#quote {
     @media screen and (max-width: 330px) {
       section#quote h5 {
         padding-top: 0px; } }
+
+/* Section-Contact */
+section#contact {
+  width: 100%;
+  height: 500px;
+  background: url("../img/contact.jpg");
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 330px) {
+    section#contact {
+      padding-bottom: 50px; } }
+  section#contact h3 {
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 24px;
+    color: #086665; }
+  section#contact h5 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #086665; }
+  section#contact .img-lalocal {
+    margin: 20px auto 0px;
+    height: 250px;
+    width: 250px;
+    background-image: url("../img/img-lalocal.png");
+    background-position: center center;
+    background-size: cover; }
+  section#contact .insta-icon {
+    margin: 25px auto 0px;
+    height: 50px;
+    width: 50px;
+    background-image: url("../img/insta-icon.png"); }
+  section#contact .insta-icon:hover {
+    opacity: 0.7; }
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #086665;
+  text-align: center; }
+  footer hr {
+    width: 50%; }
+  footer h3,
+  footer h4 {
+    margin: 0;
+    color: white; }
+  footer h4 {
+    padding-top: 70px; }
+  footer h3 {
+    padding-bottom: 20px; }
