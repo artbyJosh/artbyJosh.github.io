@@ -276,17 +276,17 @@ section#work {
         left: 0;
         right: 0; }
     section#work .work-container .work1 {
-      background-image: url("../img/w1.jpg"); }
+      background-image: url("../img/w1.png"); }
     section#work .work-container .work2 {
-      background-image: url("../img/w2.jpg"); }
+      background-image: url("../img/w2.png"); }
     section#work .work-container .work3 {
-      background-image: url("../img/w3.jpg"); }
+      background-image: url("../img/w3.png"); }
     section#work .work-container .work4 {
-      background-image: url("../img/w4.jpg"); }
+      background-image: url("../img/w4.png"); }
     section#work .work-container .work5 {
-      background-image: url("../img/w5.jpg"); }
+      background-image: url("../img/w5.png"); }
     section#work .work-container .work6 {
-      background-image: url("../img/w6.jpg"); }
+      background-image: url("../img/w6.png"); }
 
 /* Section-Quote */
 section#quote {
