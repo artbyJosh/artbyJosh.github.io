@@ -19,9 +19,9 @@ header {
     background-position: center center;
     position: absolute; }
   header .bg2 {
-    background-image: url("../img/joshPic2.png"); }
+    background-image: url("../img/img1.jpg"); }
   header .bg3 {
-    background-color: #252525; }
+    background-image: url("../img/img2.jpg"); }
   header .bg1 {
     background-color: #ffffff; }
   header nav {
