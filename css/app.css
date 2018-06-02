@@ -16,7 +16,7 @@ header {
     height: 100%;
     opacity: 0;
     background-size: cover;
-    position: center center;
+    background-position: center center;
     position: absolute; }
   header .bg2 {
     background-image: url("../img/joshPic2.png"); }
@@ -42,17 +42,20 @@ header {
     text-align: center; }
   header h1 {
     font-size: 55px;
-    margin-top: 125px;
-    margin-bottom: 52px; }
+    margin-top: 5%;
+    margin-bottom: 5%; }
   header h3 {
     font-size: 26px; }
   header .logo {
-    margin: 63px auto 50px;
+    margin: 5% auto 0px;
     height: 150px;
     width: 150px;
-    background-image: url("../img/logo.png"); }
+    background-image: url("../img/logo.png");
+    background-position: center center;
+    background-size: cover; }
   header .slide-grp {
     margin: 0 auto;
+    padding-top: 100px;
     width: 160px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -64,98 +67,94 @@ header {
       position: relative;
       padding: 5px 20px 5px;
       background-color: #086665;
-      margin: 36px 10px 0px; }
+      margin: 0px 10px 0px; }
     header .slide-grp span#pg2, header .slide-grp span#pg3 {
       background-color: #ccc; }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 877px) {
+@media screen and (max-width: 899px), screen and (max-height: 600px) {
   header h1 {
-    font-size: 48px; } }
-  @media screen and (max-width: 877px) and (max-width: 767px) {
-    header h1 {
-      font-size: 42px; } }
-  @media screen and (max-width: 877px) and (max-width: 671px) {
-    header h1 {
-      font-size: 36px; } }
-
-@media screen and (max-width: 575px) {
-  header h1 {
-    font-size: 32px; } }
-  @media screen and (max-width: 575px) and (max-width: 510px) {
-    header h1 {
-      font-size: 28px; } }
-  @media screen and (max-width: 575px) and (max-width: 447px) {
-    header h1 {
-      font-size: 24px; } }
-  @media screen and (max-width: 575px) and (max-width: 383px) {
-    header h1 {
-      font-size: 22px; } }
-  @media screen and (max-width: 575px) and (max-width: 353px) {
-    header h1 {
-      font-size: 18px; } }
-  @media screen and (max-width: 575px) and (max-width: 288px) {
-    header h1 {
-      font-size: 16px; } }
-  @media screen and (max-width: 575px) and (max-height: 630px) {
-    header h1 {
-      margin-top: 50px;
-      margin-bottom: 20px; } }
-
-@media screen and (max-width: 575px) {
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
   header h3 {
-    font-size: 20px; } }
-  @media screen and (max-width: 575px) and (max-width: 510px) {
-    header h3 {
-      font-size: 18px; } }
-  @media screen and (max-width: 575px) and (max-width: 447px) {
-    header h3 {
-      font-size: 16px; } }
-  @media screen and (max-width: 575px) and (max-width: 510px) {
-    header h3 {
-      font-size: 14px; } }
-  @media screen and (max-width: 575px) and (max-width: 510px) {
-    header h3 {
-      font-size: 10px; } }
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; } }
 
-@media screen and (max-width: 671px) {
+@media screen and (max-width: 699px), screen and (max-height: 480px) {
+  header h1 {
+    font-size: 32px; }
+  header h3 {
+    font-size: 16px; }
   header nav {
     width: 80%; } }
-  @media screen and (max-width: 671px) and (max-width: 383px) {
-    header nav {
-      width: 98%; } }
 
-@media screen and (max-width: 383px) {
-  header nav a {
-    font-size: 14px; }
+@media screen and (max-height: 480px), screen and (max-width: 480px) {
   header .slide-grp {
-    width: 60%; } }
-
-@media screen and (max-height: 720px) {
-  header {
-    height: 100%; }
-    header h1 {
-      margin-top: 10px;
-      margin-bottom: 20px; } }
-
-@media screen and (max-height: 517px) {
+    display: none; }
   header .logo {
-    width: 100px;
-    height: 100px;
-    background-position: center center;
-    background-size: cover; } }
-  @media screen and (max-height: 517px) and (max-height: 443px) {
-    header .logo {
-      height: 80px;
-      width: 80px;
-      margin-bottom: 10px; } }
-  @media screen and (max-height: 517px) and (max-height: 384px) {
-    header .logo {
-      height: 50px;
-      width: 50px; } }
-  @media screen and (max-height: 517px) and (max-height: 351px) {
-    header .logo {
-      margin-top: 0; } }
-  @media screen and (max-height: 517px) and (max-height: 290px) {
-    header .logo {
-      display: none; } }
+    margin-top: 50px; }
+  header nav {
+    width: 95%; } }
+
+/* About Section */
+section#about {
+  width: 100%;
+  height: 500px;
+  background-color: #086665;
+  padding-bottom: 84px; }
+  section#about h2,
+  section#about h4,
+  section#about h5 {
+    padding: 0;
+    margin-top: 0;
+    color: #ffffff;
+    text-align: center; }
+  section#about h2 {
+    padding-top: 85px;
+    font-size: 36px; }
+  section#about h4 {
+    font-size: 22px;
+    padding-top: 68px; }
+  section#about h5 {
+    padding-top: 22px;
+    font-size: 16px; }
+  section#about .insta-icon {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-image: url("../img/insta-icon.png");
+    background-position: center center; }
+  section#about .insta-icon:hover {
+    opacity: 0.7; }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 899px), screen and (max-height: 600px) {
+  section#about h2 {
+    font-size: 26px; }
+  section#about h4 {
+    font-size: 16px; }
+  section#about h5 {
+    font-size: 12px; } }
+
+@media screen and (max-width: 699px), screen and (max-height: 480px) {
+  section#about {
+    padding-bottom: 10px; }
+    section#about h2 {
+      font-size: 20px; }
+    section#about h4 {
+      font-size: 12px; }
+    section#about h5 {
+      font-size: 10px; } }
+
+@media screen and (max-width: 480px), screen and (max-height: 480px) {
+  section#about {
+    padding-bottom: 0px;
+    height: 400px; }
+    section#about h4 {
+      font-size: 11px;
+      padding-top: 0px; }
+    section#about h5 {
+      font-size: 10px; } }
